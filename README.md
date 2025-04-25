@@ -1,10 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 👗 Ella May - Fashion eCommerce Website
+
+**Ella May** is a modern and responsive fashion eCommerce website designed to showcase trendy clothing and accessories. It is built with **Next.js**, **CSS**, and **Bootstrap**. This platform provides an elegant shopping experience with a sleek layout.
+
+Live Demo: [ella-may-564r.vercel.app](https://ella-may-564r.vercel.app/)
+
+---
+
+## 🚀 Features
+
+- ⚡ **Responsive Design** — Optimized for mobile, tablet, and desktop with Bootstrap's grid system.
+- 💅 **Elegant Layout** — Stylish design showcasing fashion products with high-quality images and minimalistic styling.
+- 🛍️ **Product Showcase** — Display various clothing items and accessories with pricing, images, and descriptions.
+- 🔍 **Product Filtering** — Filter products by category, size, or price range.
+- 🛒 **Shopping Cart Integration** *(optional, if implemented)* — Add items to the cart and proceed to checkout.
+
+---
+
+## 🧑‍🤝‍🧑 Pages
+
+### 🏠 Home
+- Hero section with featured product highlights.
+- Product grid displaying a variety of fashion items.
+
+### 🛍️ Product Details
+- Detailed product pages with descriptions, pricing, and images.
+- Add-to-cart functionality.
+
+### 🧑‍💼 About Us
+- Introduction to the brand's mission and vision.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Next.js](https://nextjs.org/)
+- **Styling:** Custom **CSS** and **Bootstrap** for responsive layout.
+- **Font Optimization:** Uses [next/font](https://nextjs.org/docs/basic-features/font-optimization) for optimized loading of Google Fonts (Inter).
+- **Deployment:** [Vercel](https://vercel.com/)
+
+---
 
 ## Getting Started
 
+This is a **Next.js** project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
 First, run the development server:
 
-```bash
+`bash
 npm run dev
 # or
 yarn dev
@@ -12,25 +54,44 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
+Open http://localhost:3000 with your browser to see the result.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+You can start editing the page by modifying app/page.tsx. The page will auto-update as you edit the file.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
+📦 Dependencies
+json
+{
+  "dependencies": {
+    "next": "^13.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "bootstrap": "^5.1.0",
+    "next/font": "^13.0.0"
+  }
+}
+Learn More
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Next.js Documentation - Learn about Next.js features and API.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Learn Next.js - Interactive Next.js tutorial.
 
-## Deploy on Vercel
+You can also check out the Next.js GitHub repository — your feedback and contributions are welcome!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Deploy on Vercel
+The easiest way to deploy your Next.js app is to use the Vercel Platform, created by the team behind Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+For deployment details, check out our Next.js deployment documentation.
+
+📁 Folder Structure
+bash
+Copy
+Edit
+/app
+  page.tsx          # Main homepage
+  /product
+    [id].tsx        # Dynamic route for product details
+/public
+  /images           # Product images
+/css
+  style.css         # Custom CSS for the project
